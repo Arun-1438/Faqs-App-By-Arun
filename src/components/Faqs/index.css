@@ -1,0 +1,30 @@
+/* Write your code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-faqs-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  padding: 100px 0px;
+}
+.faqs-container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;
+}
+.faqs-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #cb8805;
+  font-size: 3rem;
+}
+.faqs-list {
+  list-style-type: none;
+}
